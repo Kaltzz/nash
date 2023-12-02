@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffff" /> <!-- Warna isi shape -->
+    <corners android:radius="8dp" /> <!-- Jari-jari sudut -->
+</shape>

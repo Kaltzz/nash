@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="@color/bg">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/nash" />
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:text="Order"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"/>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/radius2" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/chat"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="320dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/supp"/>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:text="Supplier 1"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="115dp"
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:text="Supplier Name"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="110dp"/>
+
+
+        <View
+            android:layout_width="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/radius2" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/chat"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="320dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="211dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/supp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Supplier 2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="204dp"
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:text="Supplier Name"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="110dp"/>
+
+
+
+
+        <View
+            android:layout_width="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/radius2" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/chat"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="320dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Supplier 3"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="295dp"
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:text="Supplier Name"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="110dp"/>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/supp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/nash"
+            android:layout_alignParentBottom="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+
+            <!-- ImageView -->
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/home"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"/>
+
+
+            <Space
+                android:layout_width="62dp"
+                android:layout_height="match_parent" />
+
+
+            <ImageView
+                android:id="@+id/ivListMusic"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/history"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="History"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="2dp"/>
+
+            <Space
+                android:layout_width="57dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/profile"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="2dp"/>
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

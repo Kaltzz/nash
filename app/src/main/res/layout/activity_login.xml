@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="@color/white">
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:src="@drawable/login2" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="WELCOME"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Login"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="50dp"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Username"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/username"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="300dp"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/padlock"
+        android:layout_marginTop="385dp"
+        android:layout_marginLeft="300dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:textStyle="bold"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:id="@+id/ivlogin"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logbtn"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:layout_marginTop="540dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="180dp"/>
+
+
+  </RelativeLayout>
+
+</LinearLayout>
